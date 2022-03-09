@@ -4,6 +4,17 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Carlos Parra Balches
+ *
+ * Test cases:
+ * fibonacci -1 -> Raises FibonacciException
+ * fibonacci 93 -> Raises FibonacciException
+ * fibonacci 0 -> 0
+ * fibonacci 1 -> 1
+ * fibonacci 10 -> 55
+ * fibonacci 92 -> 7540113804746346429
+ */
 class FibonacciTest {
     @Test
     public void shouldComputeRaiseAnExceptionIfNumberIsMinusOne() {
