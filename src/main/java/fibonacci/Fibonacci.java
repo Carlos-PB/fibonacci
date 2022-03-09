@@ -1,11 +1,11 @@
 package fibonacci;
 
 public class Fibonacci {
-    private static int MAX_NUMBER = 20;
+    private static int MAX_NUMBER = 92;
 
     public static long compute(int number) {
         if(number < 0 || number > MAX_NUMBER) {
-            throw new FibonacciException("Can't compute " + number + "!. The value must be between 0 and " + MAX_NUMBER + ".");
+            throw new FibonacciException("Can't compute fibonacci(" + number + "). The value must be between 0 and " + MAX_NUMBER + ".");
         }
 
         if(number == 0) {
